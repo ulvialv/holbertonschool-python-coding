@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+This module defines the Square class with size validation.
+"""
+
+
 class Square:
     """Defines a square."""
 
@@ -10,4 +15,4 @@ class Square:
         if size < 0:
             raise ValueError("size must be >= 0")
 
-        self.size = size
+        self.__size = size
