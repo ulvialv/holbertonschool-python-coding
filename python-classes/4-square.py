@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 """Square class that defines a square with size, area and printing."""
 
+
 class Square:
     """Class that defines a square."""
 
     def __init__(self, size=0):
         """Initialize the square with size."""
-        self.size = size   # property setter-i işə salır
+        self.size = size
 
     @property
     def size(self):
